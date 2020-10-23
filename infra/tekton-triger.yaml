@@ -105,7 +105,7 @@ spec:
       description: registry's repo path
       default: registry-harbor-core.harbor.svc.cluster.local/library
     - name: DOMAIN
-      value: YOUR_DOMAIN
+      default: YOUR_DOMAIN
   resourcetemplates:
   - apiVersion: tekton.dev/v1beta1
     kind: PipelineRun
